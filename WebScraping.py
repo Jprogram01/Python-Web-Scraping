@@ -1,7 +1,3 @@
-import requests
-from bs4 import BeautifulSoup
-import mechanicalsoup
-import re
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
