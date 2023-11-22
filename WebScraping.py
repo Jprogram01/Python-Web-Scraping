@@ -51,6 +51,8 @@ def get_all_job_listings(url):
                 except NoSuchElementException:
                     # Handle if any element is not found on the current job listing
                     pass
+                except AttributeError:
+                    pass
             
             
             url = next_page.get_attribute("href")
